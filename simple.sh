@@ -1,4 +1,4 @@
 #!/bin/bash
 echo
-echo "new text Jenkins - version 11"
+echo "new text Jenkins - version 12"
 echo
