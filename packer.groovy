@@ -32,8 +32,8 @@
 		stage("Run Packer"){
 			timestamps {
 				ws {
-					sh "packer version"
-					sh "packer build --var region=${REGION} tools/${TOOL}.json"
+					// sh "packer version"
+					// sh "packer build --var region=${REGION} tools/${TOOL}.json"
 			}
 		}
 	}
