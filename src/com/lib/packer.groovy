@@ -1,4 +1,6 @@
-	node {
+	
+deploy(){
+            node {
 		properties(
 			[parameters(
 				[choice(choices: 
@@ -46,3 +48,4 @@
 			}
 		}
 	}
+}
