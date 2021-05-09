@@ -1,5 +1,5 @@
 	
-deploy(){
+ 
             node {
 		properties(
 			[parameters(
@@ -48,4 +48,4 @@ deploy(){
 			}
 		}
 	}
-}
+
